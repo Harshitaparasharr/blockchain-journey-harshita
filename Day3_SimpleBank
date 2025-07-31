@@ -1,0 +1,18 @@
+# Day 3 – SimpleBank Smart Contract
+
+Today I created a basic smart contract using Solidity where users can deposit, check their balance, and withdraw Ether.
+
+This was my first time working with actual Ether transactions in a contract. I used mapping to store balances and understood how `msg.sender`, `msg.value`, and `payable` work.
+
+### What I did:
+- Created a deposit function that accepts Ether
+- Made a getBalance function to check the current balance
+- Added a withdraw function with checks using `require`
+- Tested all functions on Remix IDE
+
+### What I learned:
+- How to write and deploy a simple contract on Remix
+- The use of mapping, functions, and transfer
+- The importance of require to protect withdrawals
+
+This task helped me feel more confident. I could test everything successfully and now I understand how a simple bank works on blockchain.
